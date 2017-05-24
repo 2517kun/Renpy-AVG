@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+IOError: [Errno 13] Permission denied: 'files.txt'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/_developer/developer.rpym", line 497, in script
+    python hide:
+  File "/Applications/renpy-6.99.6-sdk/renpy/ast.py", line 797, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Applications/renpy-6.99.6-sdk/renpy/python.py", line 1448, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/_developer/developer.rpym", line 499, in <module>
+    f = file("files.txt", "w")
+IOError: [Errno 13] Permission denied: 'files.txt'
+
+Darwin-15.0.0-x86_64-i386-64bit
+Ren'Py 6.99.6.739
+AVG 1Formal 0.0

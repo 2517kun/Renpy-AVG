@@ -1,0 +1,29 @@
+﻿
+Ren'Py 6.99.6.739 lint report, generated at: Sat Nov 28 00:06:00 2015
+
+char/咲夜.png contains non-ASCII characters in its filename.
+(ZIP file distributions can only reliably include ASCII filenames.)
+
+char/明日香only_invert.png contains non-ASCII characters in its filename.
+
+char/明日香only_normal.png contains non-ASCII characters in its filename.
+
+images/咲夜.png contains non-ASCII characters in its filename.
+
+images/明日香only_invert.png contains non-ASCII characters in its filename.
+
+images/明日香only_normal.png contains non-ASCII characters in its filename.
+
+
+Statistics:
+
+The game contains 396 dialogue blocks, containing 402 words and 14,022
+characters, for an average of 1.0 words and 35 characters per block.
+
+The game contains 0 menus, 1 images, and 12 screens.
+
+
+Remember to set config.developer to False before releasing.
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.
